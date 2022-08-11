@@ -83,7 +83,7 @@ header .navigation .menu {
     transition: 0.3s;
 }
 
-.menu-item .sub-menu {
+/* .menu-item .sub-menu {
     position: absolute;
     background: #000000;
     top: 74px;
@@ -162,7 +162,7 @@ header.sticky .menu-item .sub-menu {
 
 .teste{
     color: white;
-}
+} */
 
 @media (max-width: 1060px) {
     header .navigation .menu {
@@ -193,7 +193,7 @@ header.sticky .menu-item .sub-menu {
         position: relative;
     }
 
-    .menu-item .sub-menu {
+    /* .menu-item .sub-menu {
         opacity: 1;
         position: relative;
         top: 0;
@@ -243,7 +243,7 @@ header.sticky .menu-item .sub-menu {
 
     .more .more-menu .more-item a {
         margin-left: 20px;
-    }
+    } */
 
     .close-btn {
         position: absolute;
