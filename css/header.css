@@ -22,7 +22,7 @@ header {
     left: 0;
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     align-items: center;
     background: #000000;
     box-shadow: 0 5px 25px rgb(0 0 0 / 20%);
