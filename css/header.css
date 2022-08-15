@@ -7,141 +7,55 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-body {
-    width: 100%;
-    min-height: 100vh;
-    align-items: center;
-    background-color: rgb(255, 255, 255);
-    font-family: "Arial";
-}
- 
-header {
-    z-index: 2;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: right;
-    background: #000000;
-    box-shadow: 0 5px 25px rgb(0 0 0 / 20%);
-    padding: 0 100px;
-    transition: 0.6s;
-}
-
-.logo{
-    width: 200px;
-}
-
-
-header .logo {
-    color: #fff;
-    font-size: 1.8em;
-    font-weight: 700;
-    text-transform: uppercase;
+/* Style the header with a grey background and some padding */
+.header {
+    overflow: hidden;
+    background-color: #000000;
+    padding: 20px 10px;
+  }
+  
+  /* Style the header links */
+  .header a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
     text-decoration: none;
-    letter-spacing: 2px;
-}
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+  }
+  
+  
+  /* .header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+  } */
+  
 
-header .navigation {
-    position: relative;
-    line-height: 75px;
-    transition: 0.6s;
-    transition-property: line-height;
-}
-
-header .navigation .menu {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    list-style: none;
-    user-select: none;
-}
-
-.more-item:hover{
-    background-color: #161616;
-    transition: all 0.3s all;
-}
-
-.menu-item>a {
-    color: #fff;
-    font-size: 1em;
-    text-decoration: none;
-    margin: 20px;
-    padding: 25px 0;
-}
-
-.menu-item>a:hover {
-    color: #555555;
-    transition: 0.3s;
-}
-
-.menu-btn {
-    display: none;
-}
-
-.teste{
+  .header a:hover {
+    background-color: rgb(66, 5, 5);
+    color: black;
+  }
+  
+  /* Style the active/current link*/
+  .header a.active {
+    background-color: rgb(0, 0, 0);
     color: white;
-}
-
-@media (max-width: 1060px) {
-    header .navigation .menu {
-        position: fixed;
-        display: block;
-        background: #000000;
-        min-width: 350px;
-        height: 100vh;
-        top: 0;
-        right: -100%;
-        padding: 90px 50px;
-        visibility: hidden;
-        overflow-y: auto;
-        transition: 0.5s;
-        transition-property: right, visibility;
+  }
+  
+  /* Float the link section to the right */
+  .header-right {
+    float: right;
+  }
+  
+  @media screen and (max-width: 500px) {
+    .header a {
+      float: none;
+      display: block;
+      text-align: left;
     }
-
-    header.sticky .navigation {
-        line-height: 75px;
+    .header-right {
+      float: none;
     }
-
-    header .navigation .menu.active {
-        right: 0;
-        visibility: visible;
-    }
-
-    .menu-item {
-        position: relative;
-    }
-
-    .close-btn {
-        position: absolute;
-        background: url(../IMG/close.png)no-repeat;
-        width: 40px;
-        height: 40px;
-        background-size: 25px;
-        background-position: center;
-        top: 0;
-        left: 0;
-        margin: 25px;
-        cursor: pointer;
-    }
-
-    .menu-btn {
-        background: url(../IMG/menu.png)no-repeat;
-        width: 40px;
-        height: 40px;
-        background-size: 30px;
-        background-position: center;
-        cursor: pointer;
-        display: block;
-    }
-
-    header {
-        padding: 15px 20px;
-    }
-
-    header.sticky {
-        padding: 10px 20px;
-    }
-}
+  }
