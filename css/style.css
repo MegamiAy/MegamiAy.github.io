@@ -26,9 +26,9 @@
     border-radius: 4px;
   }
   
-  .header .logo {
-    height: 40px;
-    width: 40px;
+  .logo {
+    max-width: 40px;
+    
   }
   
  .header a {
