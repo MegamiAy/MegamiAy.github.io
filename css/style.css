@@ -71,7 +71,7 @@ h1 {
 
 .container .box {
    display : inline-block;
-  flex-direction : row;  
+  /* flex-direction : row;   */
 }
 
 .container .box .box-cell.box1 {
@@ -88,4 +88,8 @@ h1 {
 .toky {
     width: 150px;
     height: 150px;
+}
+
+table {
+  border: 1px black;
 }
