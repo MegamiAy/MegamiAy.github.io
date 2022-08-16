@@ -7,14 +7,14 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/* Style the header with a grey background and some padding */
+/* HEADER \/ */
+
 .header {
     overflow: hidden;
     background-color: #000000;
     padding: 20px 10px;
   }
   
-  /* Style the header links */
   .header a {
     float: left;
     color: black;
@@ -26,11 +26,10 @@
     border-radius: 4px;
   }
   
-  
-  /* .header a.logo {
+  .header a.logo {
     font-size: 25px;
     font-weight: bold;
-  } */
+  }
   
  .header a {
     color: white;
@@ -41,13 +40,11 @@
     color: rgb(90, 2, 2);
   }
   
-  /* Style the active/current link*/
   .header a.active {
     background-color: rgb(0, 0, 0);
     color: white;
   }
   
-  /* Float the link section to the right */
   .header-right {
     float: right;
   }
@@ -62,3 +59,36 @@
       float: none;
     }
   }
+
+  /* HEADER /\ */
+
+  /* BODY \/ */
+
+h1 {
+    text-align:center;
+    color:rgb(0, 0, 0);
+}
+body {
+    width:70%;
+}
+.container .box {
+   display : flex;
+  flex-direction : row;
+   
+}
+
+.container .box .box-cell.box1 {
+    background-color:rgb(186, 199, 186);
+    color:rgb(0, 0, 0);
+    text-align:justify;
+ }
+.container .box .box-cell.box2 {
+    background-color:rgb(109, 104, 173);
+    color:rgb(0, 0, 0);
+    text-align:justify
+}
+
+.toky {
+    width: 150px;
+    height: 150px;
+}
