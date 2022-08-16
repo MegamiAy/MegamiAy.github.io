@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.if {
+    max-width: 800px;
+}
+
+@media screen and (max-width: 500px) {
+    .if { 
+        max-width: 200px;
+    }
+}
