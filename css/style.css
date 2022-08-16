@@ -75,12 +75,12 @@ h1 {
 }
 
 .container .box .box-cell.box1 {
-    background-color:rgb(186, 199, 186);
+    /* background-color:rgb(255, 255, 255); */
     color:rgb(0, 0, 0);
     text-align:justify;
  }
 .container .box .box-cell.box2 {
-    background-color:rgb(109, 104, 173);
+    /* background-color:rgb(109, 104, 173); */
     color:rgb(0, 0, 0);
     text-align:justify
 }
