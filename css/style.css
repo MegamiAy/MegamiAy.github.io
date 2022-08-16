@@ -70,7 +70,7 @@ h1 {
 }
 
 .container .box {
-   display : inline-block;
+   display : flex;
   flex-direction : row;  
 }
 
@@ -83,4 +83,9 @@ h1 {
     background-color:rgb(109, 104, 173);
     color:rgb(0, 0, 0);
     text-align:justify
+}
+
+.toky {
+    width: 150px;
+    height: 150px;
 }
