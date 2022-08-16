@@ -68,13 +68,10 @@ h1 {
     text-align:center;
     color:rgb(0, 0, 0);
 }
-/* body {
-    width:70%;
-} */
+
 .container .box {
    display : flex;
-  flex-direction : row;
-   
+  flex-direction : row;  
 }
 
 .container .box .box-cell.box1 {
