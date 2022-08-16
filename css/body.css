@@ -3,7 +3,11 @@
     padding: 0;
 }
 
-div {
+.if1 {
+    /* max-width: 800px; */
+    display: inline-block;
+}
+.if2 {
     /* max-width: 800px; */
     display: inline-block;
 }
