@@ -27,7 +27,7 @@
   }
   
   .logo {
-    max-width: 40px;
+    max-width: 25px;
     
   }
   
@@ -83,9 +83,4 @@ h1 {
     background-color:rgb(109, 104, 173);
     color:rgb(0, 0, 0);
     text-align:justify
-}
-
-.toky {
-    width: 150px;
-    height: 150px;
 }
