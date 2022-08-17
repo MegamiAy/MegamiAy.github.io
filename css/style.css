@@ -89,3 +89,7 @@
 table {
   border: 1 black;
 }
+
+.ctt {
+  width: 40px;
+}
