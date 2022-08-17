@@ -64,10 +64,6 @@
 
   /* BODY \/ */
 
-h1 {
-    text-align:center;
-    color:rgb(0, 0, 0);
-}
 
 .container .box {
    display : inline-block;
