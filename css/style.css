@@ -93,3 +93,7 @@ table {
 .ctt {
   max-width: 60px;
 }
+
+footer {
+  padding: 2%;
+}
