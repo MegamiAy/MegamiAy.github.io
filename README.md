@@ -1,5 +1,4 @@
 # Meu perfil
 <br>
-<hr>
-<br>
-Para entrar no site, acesse este link: 
+Para acessar o site clique aqui:
+<a href=""><button>Abrir</button></a>
