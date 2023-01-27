@@ -155,6 +155,12 @@ ul {
     margin-left: 30px;
 }
 
+.sec {
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
 #hob {
     columns: 2;
 }

@@ -83,5 +83,8 @@ big screens: up 1200px
         display: inline-block;
     }
 
+    /* ul {
+        columns: 2;
+    } */
 
 }
