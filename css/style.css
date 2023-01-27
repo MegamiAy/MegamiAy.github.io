@@ -127,62 +127,6 @@ p > a {
     color: var(--color5);
 }
 
-/* experience */
-
-.exp {
-    margin-bottom: 20px;
-    width: 90%;
-    margin-left: 30px;
-}
-
-.bar {
-    background-color: #d2dbe0;
-    border-radius: 10px;
-    height: 18px;
-    overflow: hidden;
-}
-
-.progress-bar {
-    background-color: #24b8cc;
-    height: 18px;
-}
-
-/* bars */
-
-#b1 {
-    width: 42.5%;
-}
-
-#b2 {
-    width: 8%;
-}
-
-#b3 {
-    width: 15.5%;
-}
-
-#b4 {
-    width: 2%;
-}
-
-#b5 {
-    width: 32%;
-}
-
-/* exp others */
-
-.exp strong {
-    font-size: 0.8em;
-    margin-left: 10px;
-    color: var(--color03);
-}
-
-.exp h4 {
-    font-weight: normal;
-    margin-top: 6px;
-    margin-bottom: 4px;
-}
-
 /* PROJS */
 
 .proj {
