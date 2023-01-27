@@ -1,3 +1,23 @@
+/* VARIABLES */
+
+:root {
+
+    --color01: #0D0D0D; 
+    --color02: #fff;
+
+    /* gray blue */
+    --color03: #1C2128;
+    --color04: #2D333B;
+    --color05: #768d99;
+    --color06: #A8BAC7;
+
+
+    --font01: 'Inter', sans-serif;
+    --font02: 'Ubuntu Mono', monospace;
+    --font03: 'DM Mono', monospace;
+}
+
+
 /* experience */
 
 .exp {
@@ -7,27 +27,30 @@
 }
 
 .bar {
-    background-color: #d2dbe0;
+    background-color: var(--color06);
     border-radius: 10px;
     height: 18px;
     overflow: hidden;
+    border: 1px solid #A8BAC7;
 }
+
 
 .line-bar {
     margin-top: 10px;
-    background-color: #d2dbe0;
+    background-color: var(--color06);
     border-radius: 10px;
     height: 6px;
     overflow: hidden;
+    border: 1px solid #A8BAC7;
 }
 
 .progress-bar {
-    background-color: #24b8cc;
+    background-color: #08678C;
     height: 18px;
 }
 
 .progress-line {
-    background-color: #24b8cc;
+    background-color: #074973;
     height: 6px;
 }
 
@@ -46,7 +69,7 @@
 }
 
 #bl2 {
-
+    width: 15%;
 }
 
 #b3 {
@@ -54,7 +77,7 @@
 }
 
 #bl3 {
-
+    width: 20%;
 }
 
 #b4 {
@@ -62,7 +85,7 @@
 }
 
 #bl4 {
-
+ width: 5%;
 }
 
 #b5 {
@@ -70,7 +93,7 @@
 }
 
 #bl5 {
-    
+    width: 30%;
 }
 
 /* exp others */
@@ -78,6 +101,7 @@
 .exp strong {
     font-size: 0.8em;
     margin-left: 10px;
+    /* color: var(--color03); */
     color: var(--color03);
 }
 
