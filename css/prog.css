@@ -110,3 +110,8 @@
     margin-top: 6px;
     margin-bottom: 4px;
 }
+
+.exp h4 > span {
+    color: var(--color05);
+    font-size: 0.6em;
+}
